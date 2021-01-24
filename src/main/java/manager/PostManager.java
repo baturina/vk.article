@@ -18,7 +18,8 @@ public class PostManager {
 
     public Post[] getObjects() {
 
-        return null;
+
+        return objects;
     }
 
     public void delete(int ownerId, int post_id) {
