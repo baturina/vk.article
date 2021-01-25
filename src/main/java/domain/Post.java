@@ -8,9 +8,9 @@ public class Post {
     private String text;
     private int date;
     private int close;
-    private int CommentInfo;
-    private int likeInfo;
-    private int RepostInfo;
+    private CommentInfo commentInfo;
+    private Likes likes;
+    private Repost repostInfo;
     private int MeterView;
     private String LocationInfo;
     private boolean interestInfo;
@@ -69,28 +69,28 @@ public class Post {
         this.close = close;
     }
 
-    public int getCommentInfo() {
-        return CommentInfo;
+    public CommentInfo getCommentInfo() {
+        return commentInfo;
     }
 
-    public void setCommentInfo(int commentInfo) {
-        CommentInfo = commentInfo;
+    public void setCommentInfo(CommentInfo commentInfo) {
+        this.commentInfo = commentInfo;
     }
 
-    public int getLikeInfo() {
-        return likeInfo;
+    public Likes getLikes() {
+        return likes;
     }
 
-    public void setLikeInfo(int likeInfo) {
-        this.likeInfo = likeInfo;
+    public void setLikes(Likes likes) {
+        this.likes = likes;
     }
 
-    public int getRepostInfo() {
-        return RepostInfo;
+    public Repost getRepostInfo() {
+        return repostInfo;
     }
 
-    public void setRepostInfo(int repostInfo) {
-        RepostInfo = repostInfo;
+    public void setRepostInfo(Repost repostInfo) {
+        this.repostInfo = repostInfo;
     }
 
     public int getMeterView() {
@@ -228,5 +228,5 @@ public class Post {
     public void setPostponedId(String postponedId) {
         this.postponedId = postponedId;
     }
-}
 
+}
