@@ -1,24 +1,24 @@
 package domain;
 
 public class Likes {
-    private String like;
-    private String userLikes;
+    private Likes like;
+    private int userLikes;
     private boolean canLike;
     private boolean canPublish;
 
-    public String getLike() {
+    public Likes getLike() {
         return like;
     }
 
-    public void setLike(String like) {
+    public void setLike(Likes like) {
         this.like = like;
     }
 
-    public String getUserLikes() {
+    public int getUserLikes() {
         return userLikes;
     }
 
-    public void setUserLikes(String userLikes) {
+    public void setUserLikes(int userLikes) {
         this.userLikes = userLikes;
     }
 
