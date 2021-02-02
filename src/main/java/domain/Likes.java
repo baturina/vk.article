@@ -1,17 +1,17 @@
 package domain;
 
 public class Likes {
-    private Likes like;
+    private int Likes;
     private int userLikes;
     private boolean canLike;
     private boolean canPublish;
 
-    public Likes getLike() {
-        return like;
+    public int getLikes() {
+        return Likes;
     }
 
-    public void setLike(Likes like) {
-        this.like = like;
+    public void setLikes(int likes) {
+        Likes = likes;
     }
 
     public int getUserLikes() {

@@ -11,9 +11,9 @@ public class PostManager {
         this.objects = objects;
     }
 
-    public Post search(int ownerId, String domain, String query, int ownersOnly, int count, int offset) {
+    public void search(int ownerId, String domain, String query, int ownersOnly, int count, int offset) {
 
-        return null;
+    return ;
     }
 
     public Post[] getObjects() {
